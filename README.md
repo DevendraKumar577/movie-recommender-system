@@ -1,12 +1,12 @@
-# 🎬 Movie Recommendation System
+#  Movie Recommendation System
 
 A content-based Movie Recommendation System built using Python, Pandas, Scikit-Learn, and Streamlit. The application recommends similar movies based on movie features and displays movie posters using the TMDB API.
 
-## 🚀 Live Demo
+##  Live Demo
 
 🔗 https://movie-recommender-system-devash.streamlit.app/
 
-## 📌 Features
+##  Features
 
 - Movie search through dropdown menu
 - Content-based recommendation engine
@@ -14,7 +14,7 @@ A content-based Movie Recommendation System built using Python, Pandas, Scikit-L
 - Movie poster fetching using TMDB API
 - Interactive web interface built with Streamlit
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Pandas
@@ -24,7 +24,7 @@ A content-based Movie Recommendation System built using Python, Pandas, Scikit-L
 - TMDB API
 - Pickle
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 movie-recommender-system/
@@ -36,7 +36,7 @@ movie-recommender-system/
 ├── README.md
 ```
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository:
 
@@ -62,20 +62,20 @@ Run the application:
 streamlit run app.py
 ```
 
-## 🧠 How It Works
+##  How It Works
 
 1. Movie metadata is processed and transformed into feature vectors.
 2. Cosine similarity is calculated between movies.
 3. When a user selects a movie, the system finds the most similar movies.
 4. Recommended movie posters are fetched from the TMDB API and displayed.
 
-## 📸 Sample Output
+##  Sample Output
 
 - Select a movie from the dropdown.
 - Click **Show Recommendation**.
 - View the top 5 recommended movies along with their posters.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Hybrid recommendation system
 - User authentication
@@ -83,7 +83,7 @@ streamlit run app.py
 - Search by genre, actor, or director
 - Personalized recommendations
 
-## 👨‍💻 Author
+##  Author
 
 **Devendra Kumar**
 
